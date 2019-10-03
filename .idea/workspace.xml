@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="008f1d07-db63-4122-bd40-a2d4e0f0e40c" name="Default Changelist" comment="" />
+    <list default="true" id="008f1d07-db63-4122-bd40-a2d4e0f0e40c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AllUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MavenHomeWorkRevised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MavenHomeWorkRevised.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AllUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AllUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MavenHomeWorkRevised.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MavenHomeWorkRevised.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,8 +34,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1R0n7UNn5kmHkqxIMcVZLUm2GgP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/BrowserDrivers" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MavenHomeWorkRevised.userAbleToSearchProductByName">
     <configuration name="MavenHomeWorkRevised" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RevisedNoppComm" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,8 +67,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MavenHomeWorkRevised.userAbleToCompareProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RevisedNoppComm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MavenHomeWorkRevised" />
+      <option name="METHOD_NAME" value="userAbleToCompareProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenHomeWorkRevised.userAbleToSearchProductByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RevisedNoppComm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MavenHomeWorkRevised" />
+      <option name="METHOD_NAME" value="userAbleToSearchProductByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenHomeWorkRevised.userRegistrationSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RevisedNoppComm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MavenHomeWorkRevised" />
+      <option name="METHOD_NAME" value="userRegistrationSuccessfully" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenHomeWorkRevised.userShouldBeAbbleToAddComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RevisedNoppComm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MavenHomeWorkRevised" />
+      <option name="METHOD_NAME" value="userShouldBeAbbleToAddComments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MavenHomeWorkRevised.userAbleToSearchProductByName" />
+        <item itemvalue="JUnit.MavenHomeWorkRevised.userAbleToCompareProducts" />
+        <item itemvalue="JUnit.MavenHomeWorkRevised.userShouldBeAbbleToAddComments" />
+        <item itemvalue="JUnit.MavenHomeWorkRevised.userRegistrationSuccessfully" />
         <item itemvalue="JUnit.MavenHomeWorkRevised" />
       </list>
     </recent_temporary>
@@ -71,5 +129,18 @@
       <updated>1568812713547</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

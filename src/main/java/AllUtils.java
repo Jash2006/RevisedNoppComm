@@ -1,11 +1,13 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -159,6 +161,39 @@ public class AllUtils extends BasePage{
         public void closeDriver(){
             driver.close();
         }
-    }
+        public void mouseHoover(By by,By subelement) {
+            //Instantiate Action Class
+            Actions actions = new Actions(driver);
+            //Retrieve WebElement to perform mouse hover
+            WebElement menuOption = driver.findElement(by);
+            //Mouse hover menuOption
+            actions.moveToElement(menuOption).perform();
+            //to click text from sub menu which has got displayed on mouse hover
+            driver.findElement(subelement).click();
+        }
+        // this method is to get the screenshot
+        public void takeScreenshot(WebDriver driver){
+
+            //Convert web driver object to TakeScreenshot
+            TakesScreenshot scrShot =((TakesScreenshot)driver);
+
+            //Call getScreenshot As method to create image file
+            File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+            //Move image file to new destination
+            File DestFile=new File("src\\main\\Screenshots"+randomdate()+".png");
+
+            //Copy file at destination
+            try {
+                FileUtils.copyFile(SrcFile, DestFile);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+}
+
+
+
 
 
